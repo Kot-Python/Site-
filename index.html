@@ -25,10 +25,8 @@
     <section id="sobre-mim">
         <h2>sobre mim</h2>
 
-        <img src="imagem.jpeg" width="100" 
-         alt="imagem de foto de perfil"
-         title="foto de perfil"> 
-         
+        <img src="imagem.jpeg" width="100" alt="imagem de foto de perfil" title="foto de perfil">
+
 
         <article>
 
@@ -78,6 +76,42 @@
                 E-mail: <a href="mailto:joaokotelak12@gmail.com">joaokotelak12@gmail.com</a>
                 <br>
                 Telefone: <a href="tel:(47) 99999-9999">(47) 99999-9999</a>
+                <form action>
+
+                    <label for="nome">nome: </label>
+                    <input type="text" id="nome" name="nome" required><br>
+
+                    <label for="e-mail">e-mail: </label>
+                    <input type="email" id="e-mail" name="e-mail" required><br>
+
+                    <label for="telefone">telefone: </label>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+
+                    <label for="assunto">Assunto: </label>
+                    <select name="assunto" id="Assunto">
+
+                        <option value="projeto">Projeto</option>
+                        <option value="colaboração">Colaboração</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+
+                    <br>
+
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                    <br>
+
+                    <input type="checkbox" id="inscricao" name="inscricao">
+                    <label for="inscricao">Desejo me inscrever para receber novidades</label>
+                    
+                    <br>
+                    
+                    <input type="submit" value="Enviar">
+
+                </form>
+                </form>
             </address>
         </section>
     </footer>
